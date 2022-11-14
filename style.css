@@ -1,0 +1,360 @@
+.inside-wrapper {
+    padding: 0 5.55vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: .2px;
+}
+
+/* Utility properties for the copied html from new.html */
+@media all {
+    nav {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+
+    .imports-from-new-html {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #fff;
+        line-height: 1.5;
+        letter-spacing: 0;
+    }
+}
+
+/* Utility Classes */
+.nav-left:hover,
+.btn:hover {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+/* This is the for the feature page */
+#program {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.program-heading-container h1,
+.program-heading-container {
+    background-color: white;
+    text-align: center;
+    width: inherit;
+}
+
+.program-heading {
+    padding: 25px 0;
+}
+
+.program-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.program-container-box {
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px #d7d3cb;
+}
+
+.program-container-box-img-wrapper img {
+    width: 100%;
+}
+
+.program-container-box-text-wrapper-inside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.program-container-box-text-wrapper-inside h1,
+.program-container-box-text-wrapper-inside p {
+    margin: 0 0 20px 0;
+}
+
+.program-container-box-text-wrapper-inside ul {
+    margin: 0 0 20px 17px;
+}
+
+/* This is for the footer */
+.footer-top {
+    background-color: #8026ff;
+    margin-top: 40px;
+    padding: 30px 0px 0px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top h1,
+.footer-top p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.173vw;
+    letter-spacing: 0.2px;
+    font-size: 1.21vw;
+}
+
+.footer-top-inside {
+    /* width: 1140px; */
+    max-width: 1140px;
+    display: flex;
+    padding: 0 7.17vw;
+}
+
+.footer-top-inside-container {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-top-inside-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.263vw;
+    line-height: 1;
+}
+
+.footer-bottom {
+    text-align: center;
+    height: 42px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-top-inside-container i {
+    font-size: 3.85vw;
+    margin: 0 0.754vw;
+    color: white;
+}
+
+.footer-bottom span {
+    color: red;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+/* This is for the testimonials */
+.testimonial-heading {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.testimonial {
+    width: 31%;
+}
+
+.testimonial a img {
+    width: 100%;
+}
+
+/* for making a top up button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 3;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #8026ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 0;
+    margin: 0;
+    width: 35px;
+    height: 35px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+/* This is for the benefits section */
+#benefits {
+    margin: 10px 0px;
+
+}
+
+.benefit-student,
+.benefit-college-student,
+.benefit-professtional {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    height: 40vw;
+    max-height: 100vh;
+}
+
+.benefit-student {
+    background-color: yellow;
+}
+
+.benefit-college-student {
+    background-color: rebeccapurple;
+}
+
+.benefit-professtional {
+    background-color: aquamarine;
+}
+
+.benefit-left {
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-right {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.benefit-right-imgwrapper {
+    height: 100%;
+    width: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-right img {
+    max-width: 435px;
+    justify-self: end;
+    height: 100%;
+}
+
+.benefit-left-textwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-left-textwrapper h1 {
+    font-size: 7.55vw;
+    font-family: 'Gilroy-Bold', sans-serif;
+    letter-spacing: -3.15px;
+    line-height: 7.24vw;
+    white-space: pre-line;
+    opacity: 0.9;
+}
+
+.benefit-left-textwrapper h2 {
+    font-size: 2.414vw;
+    font-family: 'Gilroy-Bold', sans-serif;
+    letter-spacing: -0.2px;
+    line-height: 2.865vw;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-top: 16px;
+}
+
+.benefit-left-textwrapper p {
+    font-size: 1.33vw;
+    font-family: 'Gilroy-Medium', sans-serif;
+    letter-spacing: 0px;
+    line-height: 2.1116vw;
+    max-width: 630px;
+}
+
+/* All the media  queries starts from here */
+
+@media (max-width:1000px) {
+    .program-container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .program-container-box {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:700px) {
+    .benefit-left {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .benefit-student,
+    .benefit-college-student,
+    .benefit-professtional {
+        flex-wrap: wrap-reverse;
+        height: auto;
+    }
+
+    .benefit-right img {
+        height: 300px;
+    }
+
+    .benefit-college-student {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    .nav-inside-wrapper {
+        justify-content: center;
+    }
+
+    .nav-mid {
+        display: none;
+    }
+
+}

@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+}
+
+.align {
+    padding: 0 105px;
+}
+
+nav {
+    background-color: transparent;
+    transition: all 0.5s ease;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8026ff;
+    height: 95px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    /* opacity: .87; */
+}
+
+.new-container img {
+    width: 130px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+
+.new-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-container a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 0 15px;
+    color: white;
+}
+
+.new-container-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.new-container-right ul li {
+    margin-left: 45px;
+}
+
+.new-container-right ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+@media (min-width:1200px) {
+    .new-container {
+        min-width: 1140px;
+    }
+}
+
+.heropage {
+    background-color: #8026ff;
+    color: white;
+    min-height: 100vh;
+    border-bottom-right-radius: 200px;
+    padding: 100px 105px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.heropage-inside {
+    display: flex;
+    padding: 5px 0;
+}
+
+.heropage-left {
+    width: 58.333333%;
+    padding: 0px 14.5px;
+}
+
+.heropage-right {
+    width: 41.666667%;
+}
+
+.heropage-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.heropage-content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.heropage-content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin: 0;
+    font-weight: 300;
+    text-align: left;
+}
+
+/* For the decoration of the from */
+.heropage-right form {
+    border: 1px solid white;
+    padding: 1.5rem;
+    padding-top: .5rem;
+    border-radius: 7px;
+}
+
+.heropage-right form div {
+    margin-top: 5px;
+}
+
+.heropage-right form label {
+    display: block;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-bottom: .25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heropage-right form input {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-width: 1px;
+    border-radius: .375rem;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.heropage-right form button {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .375rem;
+    width: 100%;
+    border: none;
+    margin-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.heropage-right form button:hover {
+    cursor: pointer;
+}
